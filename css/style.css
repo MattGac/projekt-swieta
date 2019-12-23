@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #87509c;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+ul {
+    list-style: none;
+    display: flex;  
+    margin-left: 600px;
+}
+li {
+    padding: 5px;
+    margin: 9px;
+    width: 124px;
+    text-align: center;
+}
+li>a {
+    text-decoration: none;
+    color: white;
+}
+li>a:hover {
+    background-color: #643a79;
+    cursor: pointer;
+}
+.napis {
+    font-size: 40px;
+    color: white;
+}
+.btn {
+    border: 1px solid #eb7d4b;
+    background-color: #eb7d4b;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn:hover {
+    color: #fff;
+}
+.main-header {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.team {
+    background-color: #e7f1f8;
+    padding: 40px 0;
+    text-align: center;
+    margin: -7px;
+    height: 650px;
+}
+hr {
+    border-color: #c8d9e5;
+    border-bottom: 0;
+    width: 70px;
+}
+h2 {
+    text-transform: uppercase;
+}
+h4 {
+    color: #3c4761;
+}
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 20px 35px;
+    justify-content: space-between;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #696969;
+    justify-content: space-between;
+}
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 35px;
+}
+.name h4 {
+    color: #55c2e9;
+}
+.social-media {
+    margin: 0 15px;
+    text-align: center;
+}
+.social-media i {
+    font-size: 30px;
+    color: #c8d9e5;
+    transition: all 0.4s;
+    border-radius: 50%;
+}
+
+.social-media i:hover {
+    color: #333;
+}
