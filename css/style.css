@@ -41,7 +41,7 @@ li>a:hover {
     color: #fff;
 }
 .main-header {
-    height: 70vh;
+    height: 400px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -68,7 +68,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     max-width: 1300px;
-    margin: 20px 35px;
+    margin: 20px 80px;
     justify-content: space-between;
 }
 .circle {
@@ -82,7 +82,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px 35px;
+    margin: 20px 80px;
 }
 .name h4 {
     color: #55c2e9;
@@ -100,4 +100,181 @@ h4 {
 
 .social-media i:hover {
     color: #333;
+}
+.skills {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin: -7px;
+    height: 500px;
+}
+.color-square {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 30px 110px;
+    justify-content: space-around;
+}
+.color-square h2 {
+    margin: 35px;
+}
+.circle1 {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #34b7eb;
+    border-radius: 50%; 
+}
+.circle2 {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #dc4481;
+    border-radius: 50%; 
+}
+.circle3 {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #17c5aa;
+    border-radius: 50%; 
+}
+.circle4 {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #ec7d4f;
+    border-radius: 50%; 
+}
+.skills2 {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    margin: 0 211px;
+}
+.about {
+    background-color:#d74680;
+    padding: 40px 0;
+    text-align: center;
+    margin: -7px;
+    height: 600px;
+    
+}
+.about h3 {
+    text-transform: uppercase;
+    color: white;
+}
+.about h4{
+    color: white;
+}
+.about h5 {
+    color: orange;
+}
+.about-opis1 {
+    left: 10px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    
+}
+.square1 {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.opis1 {
+    float: left;
+    margin: -20px 20px;
+}
+.about-opis2 {
+    left: 50px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    
+}
+.square2 {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.opis2 {
+    float: left;
+    margin: -20px 20px;
+}
+.touch {
+    background-color:#3c5499;
+    padding: 40px 0;
+    text-align: center;
+    margin: -7px;
+    height: 500px;
+}
+.touch hr {
+    color: #273a71;
+}
+.touch h2 {
+    text-transform: uppercase;
+    color: white;
+}
+.touch h4{
+    color: white;
+}
+.touch form {
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.touch form input:not(.button) {
+    flex-basis: 49%;
+    margin-bottom: 10px;
+    background-color: #273a71;
+}
+
+.touch form textarea {
+    flex-basis: 100%;
+    background-color: #273a71;
+}
+
+.touch form input:not(.button),
+.touch form textarea {
+    padding: 10px;
+}
+
+.touch .button {
+    margin: 10px auto;
+    border: 1px solid #55c2e9;
+    background-color: #55c2e9;
+    text-transform: uppercase;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn:hover {
+    color: black;
+}
+
+footer {
+    background: #344b8e;
+    justify-content: space-between;
+    margin: 7px -7px;
+    padding: 4px 0;
+    display: flex;
+    
+}
+.social-media-footer  ul{
+    margin: 0 192px;
+    text-align: center;
+}
+.social-media-footer li>a{
+    color: white;
+    transition: all 0.4s;
+}
+.social-media-footer li>a:hover {
+    color: #55c2e9;
 }
