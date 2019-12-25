@@ -22,7 +22,7 @@ li>a {
     color: white;
 }
 li>a:hover {
-    background-color: #643a79;
+    color: #643a79;
     cursor: pointer;
 }
 .napis {
@@ -40,6 +40,7 @@ li>a:hover {
 .btn:hover {
     color: #fff;
 }
+
 .main-header {
     height: 400px;
     justify-content: center;
@@ -255,7 +256,7 @@ h4 {
     cursor: pointer;
     transition: all 0.4s;
 }
-.btn:hover {
+.button:hover {
     color: black;
 }
 
