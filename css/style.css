@@ -167,9 +167,10 @@ h4 {
 .about h5 {
     color: orange;
 }
+
 .about-opis1 {
-    left: 10px;
-    position: relative;
+    left: 100px;
+    position: absolute;
     padding-right: 15px;
     padding-left: 15px;
     text-align: left;
@@ -187,12 +188,11 @@ h4 {
     margin: -20px 20px;
 }
 .about-opis2 {
-    left: 50px;
-    position: relative;
+    left: 750px;
+    position: absolute;
     padding-right: 15px;
     padding-left: 15px;
-    text-align: left;
-    
+    text-align: left;   
 }
 .square2 {
     float: left;
@@ -205,6 +205,57 @@ h4 {
     float: left;
     margin: -20px 20px;
 }
+.about-opis3 {
+    top: 190px;
+    left: 100px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;  
+}
+.square3 {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.opis3 {
+    float: left;
+    margin: -18px 20px;
+}
+.about-opis4 {
+    top: 190px;
+    left: 202px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+}
+.square4 {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.opis4 {
+    float: left;
+    margin: -20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .touch {
     background-color:#3c5499;
     padding: 40px 0;
