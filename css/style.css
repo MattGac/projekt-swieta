@@ -176,17 +176,17 @@ h4 {
     text-align: left;
     
 }
-.square1 {
+/* .square1 {
     float: left;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: grey;
-}
-.opis1 {
+} */
+/* .opis1 {
     float: left;
     margin: -20px 20px;
-}
+} */
 .about-opis2 {
     left: 750px;
     position: absolute;
@@ -194,7 +194,7 @@ h4 {
     padding-left: 15px;
     text-align: left;   
 }
-.square2 {
+/* .square2 {
     float: left;
     height: 100px;
     width: 100px;
@@ -204,7 +204,7 @@ h4 {
 .opis2 {
     float: left;
     margin: -20px 20px;
-}
+} */
 .about-opis3 {
     top: 190px;
     left: 100px;
@@ -213,7 +213,7 @@ h4 {
     padding-left: 15px;
     text-align: left;  
 }
-.square3 {
+/* .square3 {
     float: left;
     height: 100px;
     width: 100px;
@@ -223,16 +223,16 @@ h4 {
 .opis3 {
     float: left;
     margin: -18px 20px;
-}
+} */
 .about-opis4 {
-    top: 190px;
-    left: 202px;
+    top: 30px;
+    left: 750px;
     position: relative;
     padding-right: 15px;
     padding-left: 15px;
     text-align: left;
 }
-.square4 {
+/* .square4 {
     float: left;
     height: 100px;
     width: 100px;
@@ -242,7 +242,7 @@ h4 {
 .opis4 {
     float: left;
     margin: -20px 20px;
-}
+} */
 
 
 
